@@ -1,9 +1,7 @@
 # 📖 Análise de Dados - BestSelling Books Dataset 📚
 
-fonte Kaggle: https://www.kaggle.com/datasets/shambhurajejagadale/amazon-bestselling-books-dataset-500-books/data
-
 ## 🎯 Objetivo
-O projeto tem como propósito identificar padrões e tendências nos **[bestsellers](ca://s?q=Livros_bestsellers_Amazon)** da Amazon.  
+O projeto tem como propósito explorar os 500 livros best-sellers da Amazon com informações detalhadas. Para identificar alguns padrões e entender sobre as melhores títulos e franquias.
 Perguntas principais:
 - Quais gêneros aparecem com maior frequência?
 - Existe correlação entre preço e posição no ranking?
@@ -12,9 +10,8 @@ Perguntas principais:
 ---
 
 ## 📂 Fonte de Dados
-- **Origem**: Lista de livros mais vendidos da Amazon.  
-- **Formato**: Arquivos CSV/JSON contendo título, autor, preço, categoria, número de avaliações e nota média.  
-- **Período**: Especificar intervalo de coleta (ex.: janeiro a junho de 2026).
+- **Origem**: Link Dataset [Kaggle](https://www.kaggle.com/datasets/shambhurajejagadale/amazon-bestselling-books-dataset-500-books/data)
+- **Formato**: Arquivos CSV contendo: Título, Autor, Nota do Usuário, Avaliações, Preço, Ano e Gênero.  
 
 ---
 
