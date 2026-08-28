@@ -1,11 +1,7 @@
-# 📖 Análise de Dados - BestSelling Books Dataset 📚
+# 📖 Análise de Dados - Best-Selling Books Dataset 📚
 
 ## 🎯 Objetivo
-O projeto tem como propósito explorar os 500 livros best-sellers da Amazon com informações detalhadas. Para identificar alguns padrões e entender sobre as melhores títulos e franquias.
-Perguntas principais:
-- Quais gêneros aparecem com maior frequência?
-- Existe correlação entre preço e posição no ranking?
-- Como variam as avaliações dos leitores?
+O projeto tem como propósito explorar os 500 livros best-sellers da Amazon com informações detalhadas. Para identificar alguns padrões e entender quais são os melhores títulos e franquias. Sou um entusiasta de obras escritas. Dessa forma, utilizarei esses estudos para compreender as principais tendências entre os usuários da plataforma de e-commerce da Amazon EUA e aprender como eles consomem.
 
 ---
 
@@ -16,22 +12,24 @@ Perguntas principais:
 ---
 
 ## 🛠️ Metodologia
-1. **[Coleta de dados](ca://s?q=Coleta_de_dados_Amazon)**: Web scraping ou API.  
-2. **[Limpeza](ca://s?q=Limpeza_de_dados)**: Remoção de duplicatas e tratamento de valores ausentes.  
-3. **[Análise exploratória](ca://s?q=Analise_exploratoria_de_dados)**: Estatísticas descritivas e gráficos de distribuição.  
-4. **[Modelagem](ca://s?q=Modelagem_de_dados)**: Regressão ou clustering para identificar padrões.  
-5. **[Visualização](ca://s?q=Visualizacao_de_dados)**: Gráficos de barras, nuvem de palavras e heatmaps.
+1. **Coleta de Dados**: Através da biblioteca Pandas.  
+2. **Limpeza e Tratamento dos Dados**: Remoção de títulos duplicados, tratamento de textos para o português-BR e conversão de preço para a moeda $.  
+3. **Análise Exploratória**: Métodos estatísticos e analíticos sobre os dados, para identificar tendências entre suas respectivas colunas.  
 
 ---
 
 ## 📊 Resultados Esperados
-- **[Tendências de gênero](ca://s?q=Tendencias_de_genero_livros)**: Identificação dos gêneros mais populares.  
-- **[Preço vs popularidade](ca://s?q=Preco_vs_popularidade_livros)**: Relação entre preço e ranking.  
-- **[Avaliações](ca://s?q=Analise_de_avaliacoes_livros)**: Distribuição das notas e comentários.
+- **Títulos com mais avaliações**: Identificação dos títulos com mais avaliações na Amazon.  
+- **Títulos com melhores notas dos usuários**: Identificação dos títulos com melhores notas dos usuários na Amazon.  
+- **Títulos com mais avaliações e melhores notas**: Relação entre os títulos com melhores notas e que também tenham bastantes avaliações.
+- **Popularidade dos Autores**: Identificar quais autores mais aparecem nesse ranking na Amazon.
+- **Qual ano teve mais publicações de Best-Selling**: Identificar quais anos de publicações dos volumes mais aparecem no ranking da Amazon.
+- **Média de preço total dos livros em dólares**: Cálculo da média dos preços dos livros na Amazon.
+- **Média de avaliação dos livros por gênero**: Cálculo da média de avaliação dos livros da Amazon, separando-os por gênero.  
 
 ---
 
 ## 📌 Conclusão
-- Síntese dos principais achados.  
-- Sugestões para editoras, autores e leitores.  
-- Possíveis extensões futuras (ex.: comparação com outras plataformas).
+- As franquias com mais livros entre os best-sellers são: " O Diário de um Banana", "Percy Jackson", "Crepúsculo", "Capitão Cueca", "Harry Potter", "Série Killing do Bill O'Reilly", "Jogos Vorazes", "Cinquenta tons de Cinza", "Thrillers Jurídicos do John Grisham" e "Obras de terror do Stephen King".  
+- Os livros com maiores avaliações são: .  
+
